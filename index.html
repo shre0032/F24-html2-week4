@@ -17,10 +17,26 @@
            you set the conditions for the browser -->
             <img 
             srcset="
-            images/puppy-2.0.jpg,
-            images/puppy-3.0.jpg"
+            images/puppy-2.0.jpg 2x,
+            images/puppy-3.0.jpg 3x"
             src="images/puppy-1.0.jpg" alt="A white puppy standing in short grass">
             
+        </section>
+
+
+        <section class="test2">
+          <!-- The X above stands for pixel density
+           the W below stands for width (and will respond to both the image size and the
+           pixel density)
+           the width you enter must correspond to theimage's actual width (in pixels) -->
+          <img 
+          srcset="images/puppy-2.0.jpg 1000w,
+          images/puppy-3.0.jpg 2000w,
+          images/puppy-3.0.jpg 3000w"
+          
+          sizes="(min-width: 900px) 66.6w,
+          (min-width: 1200px) 33.3w"
+          src="images/puppy-1.0.jpg" alt="A white puppy standing in short grass">
         </section>
     </main>
     <footer>

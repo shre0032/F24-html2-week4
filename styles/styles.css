@@ -1,0 +1,16 @@
+.test2 {
+    width: 100vw;
+
+}
+
+@media screen and (min-width: 960px) {
+    .test2 {
+        width: 66.6vw;
+    }
+}
+
+@media screen and (min-wdith: 1200px) {
+    .test2  {
+        width: 33.3vw;
+    }
+}
